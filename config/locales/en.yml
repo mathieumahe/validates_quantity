@@ -1,0 +1,11 @@
+en:
+  errors:
+    messages:
+      greater_than: "must contain more than %{count} elements"
+      greater_than_or_equal_to: "must contain %{count} or more elements"
+      equal_to: "must contain %{count} elements"
+      less_than: "must contain less than %{count} elements"
+      less_than_or_equal_to: "must contain %{count} or less elements"
+      other_than: "must not contain %{count} elements"
+      odd: "must contain an odd number of elements"
+      even: "must contain an even number of elements"

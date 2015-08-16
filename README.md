@@ -20,19 +20,22 @@ Or install it yourself as:
 
 Call `validates_quantity_of` in an ActiveRecord class and pass the name of the association to validate.
 
-```class Topic < ActiveRecord::Base
-    validates_quantity_of :tags, :less_than_or_equal_to => 5
-end```
 
-Available keys are : 
-+-------------------------------+-----------+
-| greater_than 					|	>		|
-| greater_than_or_equal_to 		|	>=		|
-| equal_to 						|	==		|
-| less_than 					|	<		|	
-| less_than_or_equal_to 		|	<=		|
-| other_than 					|	!=		|
-+-------------------------------+-----------+
+
+    class Topic < ActiveRecord::Base
+        validates_quantity_of :tags, :less_than_or_equal_to => 5
+    end
+
+Available keys are :
+
+Keys                                      | Operation 
+--------------------------------------|----------------
+greater_than                         | >
+greater_than_or_equal_to    | >=
+equal_to                                | ==
+less_than                              | <
+less_than_or_equal_to         | <=
+other_than                            | !=
 
 
 ## Contributing
